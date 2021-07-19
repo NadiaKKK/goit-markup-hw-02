@@ -66,18 +66,26 @@ body {
 
 .section-title {
   color: var(--secondary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16x;
   text-align: center;
+}
+
+.team-member {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+color: var(--secondary-text-color);
+
 }
 
 /* Hero */
 .hero {
   color: #ffffff;
   background-color: #2f303a;
-  font-family: Roboto, sans-serif;
-  font-weight: 900;
+   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -102,32 +110,27 @@ body {
 
 .title .description {
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 
 .subtitle {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 700;
+   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--secondary-text-color);
 }
 
 .subtitle-description {
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
+   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  color: var(--primary-text-color);
+  
 }
 
 /* Button */
 .button {
-  font-family: Roboto, sans-serif;
   color: #ffffff;
   background-color: #2196f3;
   font-weight: bold;
@@ -140,6 +143,7 @@ body {
   background-color: #f5f4fa;
 }
 
+.list .button:focus,
 .list .button:hover {
   color: #ffffff;
   background-color: #2196f3;
@@ -157,15 +161,13 @@ footer {
 /* Адрес */
 .address .city {
   color: #ffffff;
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
+   font-weight: 400;
   font-size: 14px;
   line-height: 1/71;
 }
 
 .address .link {
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
+   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
