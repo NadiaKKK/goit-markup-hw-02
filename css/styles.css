@@ -73,26 +73,25 @@ body {
 }
 
 .team-member {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-color: var(--secondary-text-color);
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--secondary-text-color);
 }
 
 /* Hero */
 .hero {
   color: #ffffff;
   background-color: #2f303a;
-   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
 /* Features */
 
 .list {
@@ -116,17 +115,16 @@ color: var(--secondary-text-color);
 }
 
 .subtitle {
-   font-weight: 700;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--secondary-text-color);
 }
 
 .subtitle-description {
-   font-weight: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  
 }
 
 /* Button */
@@ -161,13 +159,13 @@ footer {
 /* Адрес */
 .address .city {
   color: #ffffff;
-   font-weight: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1/71;
 }
 
 .address .link {
-   font-weight: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
