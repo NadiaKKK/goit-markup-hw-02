@@ -45,7 +45,9 @@ body {
 }
 .site-nav .link {
   color: #212121;
+  text-decoration: none;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -57,6 +59,7 @@ body {
 
 .contacts .link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 .contacts :hover,
@@ -70,6 +73,10 @@ body {
   font-size: 36px;
   line-height: 1.16x;
   text-align: center;
+}
+
+.our-team {
+  background-color: #f5f4fa;
 }
 
 .team-member {
