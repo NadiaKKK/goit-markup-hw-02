@@ -79,7 +79,7 @@ body {
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16x;
+  line-height: 1.16;
   text-align: center;
 }
 
@@ -131,7 +131,7 @@ body {
 .list .title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
 }
 
 .title .description {
@@ -184,16 +184,25 @@ footer {
 }
 
 /* Адрес */
-.address .city {
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1/71;
+
+.address ul{
+font-style: normal;
+list-style-type: none;  
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
 }
 
+.address .city {
+  color: #ffffff;
+ }
+
 .address .link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.logo.logo-footer {
+  color: #ffffff;
+
+
