@@ -39,12 +39,7 @@ body {
 
 /* Site nav & Contacts */
 
-.site-nav .list {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
+
 .site-nav .contacts {
   font-weight: 500;
   font-size: 14px;
@@ -54,6 +49,10 @@ body {
 .site-nav .link {
   color: #212121;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -66,8 +65,13 @@ body {
 }
 
 .contacts .link {
-  color: var(--primary-text-color);
-  text-decoration: none;
+color: var(--primary-text-color);
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
 }
 
 .contacts :hover,
@@ -81,6 +85,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .our-team {
@@ -93,6 +98,7 @@ body {
   line-height: 1.18;
   text-align: center;
   color: var(--secondary-text-color);
+  letter-spacing: 0.03em;
 }
 
 /* Hero */
@@ -100,18 +106,17 @@ body {
   color: #ffffff;
   background-color: #2f303a;
   text-align: center;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
 }
 /* Features */
 
@@ -119,7 +124,7 @@ body {
   list-style: none;
 }
 
-.feature-list .title {
+.feature-list-title {
   color: var(--secondary-text-color);
   font-style: normal;
   font-weight: 700;
@@ -134,11 +139,12 @@ body {
   line-height: 1.14;
 }
 
-.title .description {
+.feature-list-description {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .subtitle {
@@ -146,12 +152,14 @@ body {
   font-size: 18px;
   line-height: 2;
   color: var(--secondary-text-color);
+  letter-spacing: 0.06em;
 }
 
 .subtitle-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 /* Button */
@@ -176,6 +184,14 @@ body {
 
 .filter .title {
   color: var(--secondary-text-color);
+}
+
+.filter-title-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 /* Футер */
