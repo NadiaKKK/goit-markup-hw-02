@@ -125,6 +125,7 @@ outline: 1px solid red;
 
 /* Hero */
 .hero {
+  outline: 3px solid tomato;
   color: #ffffff;
   background-color: #2f303a;
   text-align: center;
@@ -133,8 +134,9 @@ outline: 1px solid red;
 }
 
 .hero-title {
+  padding: 200px 452px;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -214,6 +216,7 @@ outline: 1px solid red;
  text-align: center;
  letter-spacing: 0.06em;
  padding: 10px 32px ;
+ margin: 360px 732px 210px 732px;
   }
 
 .list .button {
